@@ -1,0 +1,8 @@
+--------------------------------------------------------------------------------
+INFO: AI will not use BAD NODES, and will error if forced to do so.
+INFO: USELESS NODES can be used by AI, but AI will not be able to shoot enemies.
+--------------------------------------------------------------------------------
+
+BAD NODE: begin negotiation              (  2223, -4984,    16 ) is in solid.
+BAD NODE: begin negotiation              (  2215, -5240,    16 ) is in solid.
+

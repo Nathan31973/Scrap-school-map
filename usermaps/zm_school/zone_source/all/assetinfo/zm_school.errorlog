@@ -1,0 +1,43 @@
+return 9004000
+^1ERROR: 'helmet' is not a valid physpreset asset
+  physpreset:helmet
+    xmodel:p7_construction_hardhat
+      col_map:maps/zm/zm_school.d3dbsp
+^1ERROR: 'water_cooler_bottle' is not a valid physpreset asset
+  physpreset:water_cooler_bottle
+    xmodel:nt_2020_cardboardbox
+      col_map:maps/zm/zm_school.d3dbsp
+^1ERROR: 'p7_eth_decor_01_rock_01' is not a valid physpreset asset
+  physpreset:p7_eth_decor_01_rock_01
+    xmodel:p7_toilet_bathroom
+      col_map:maps/zm/zm_school.d3dbsp
+^1ERROR: 'p7_debris_trash_snack_bag_06' is not a valid physpreset asset
+  physpreset:p7_debris_trash_snack_bag_06
+    xmodel:p7_debris_trash_snack_bag_06
+      col_map:maps/zm/zm_school.d3dbsp
+^1ERROR: 'p7_debris_trash_snack_bag_07' is not a valid physpreset asset
+  physpreset:p7_debris_trash_snack_bag_07
+    xmodel:p7_debris_trash_snack_bag_07
+      col_map:maps/zm/zm_school.d3dbsp
+^1ERROR: 'p7_debris_trash_snack_bag_02' is not a valid physpreset asset
+  physpreset:p7_debris_trash_snack_bag_02
+    xmodel:p7_debris_trash_snack_bag_02
+      col_map:maps/zm/zm_school.d3dbsp
+^1ERROR: image 'specialty_divetonuke_zombies' is missing
+  image:specialty_divetonuke_zombies
+    csv:zone_source/zm_school.zone
+^1ERROR: image 'specialty_vulture_zombies' is missing
+  image:specialty_vulture_zombies
+    csv:zone_source/zm_school.zone
+^1ERROR: image 'specialty_tombstone_zombies' is missing
+  image:specialty_tombstone_zombies
+    csv:zone_source/zm_school.zone
+^3Could not find bone 'p7_foliage_tree_redwood_lrg_base_01_lod0' for submodel 'p7_foliage_tree_redwood_lrg_mid' in parent model 'p7_zur_foliage_tree_redwood_lrg_01_lrg'
+  xmodel:p7_zur_foliage_tree_redwood_lrg_01_lrg
+    col_map:maps/zm/zm_school.d3dbsp
+^3Could not find bone 'p7_foliage_tree_redwood_lrg_base_01_lod0' for submodel 'p7_foliage_tree_redwood_lrg_top' in parent model 'p7_zur_foliage_tree_redwood_lrg_01_lrg'
+  xmodel:p7_zur_foliage_tree_redwood_lrg_01_lrg
+    col_map:maps/zm/zm_school.d3dbsp
+^3Found 2 bad nodes, 0 useless nodes, dumped to G:\Steam\SteamApps\common\Call of Duty Black Ops III\/usermaps\zm_school/zone_source/all/assetinfo/zm_school.badnodes file.
+  game_map:maps/zm/zm_school.d3dbsp
+^3Found 1 bad bulletmeshes, dumped to G:\Steam\SteamApps\common\Call of Duty Black Ops III\/usermaps\zm_school/zone_source/all/assetinfo/zm_school_bulletreport.csv file.

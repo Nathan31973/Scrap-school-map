@@ -1,0 +1,73 @@
+>class,zm_mod_level
+>group,modtools
+
+xmodel,skybox_default_day
+material,luts_t7_default
+	
+// BSP
+col_map,maps/zm/zm_school.d3dbsp
+gfx_map,maps/zm/zm_school.d3dbsp
+
+// Audio
+sound,zm_school
+
+scriptparsetree,scripts/zm/zm_school.gsc
+scriptparsetree,scripts/zm/zm_school.csc
+scriptparsetree,scripts/zm/zm_usermap.gsc
+
+//EC
+//xmodel,p6_zm_vending_electric_cherry_off
+//xmodel,p6_zm_vending_electric_cherry_on
+//scriptparsetree,scripts/zm/_zm_perk_electric_cherry.gsc
+//scriptparsetree,scripts/zm/_zm_perk_electric_cherry.csc
+
+
+//AGC's Black Ops 2 Perk Shaders
+image,specialty_giant_juggernaut_zombies
+image,specialty_giant_marathon_zombies
+image,specialty_giant_quickrevive_zombies
+image,specialty_giant_fastreload_zombies
+image,specialty_giant_ads_zombies
+image,specialty_giant_three_guns_zombies
+image,specialty_giant_doubletap_zombies
+image,specialty_blue_electric_cherry_zombies
+image,specialty_giant_widows_wine_zombies
+image,specialty_divetonuke_zombies
+image,specialty_vulture_zombies
+image,specialty_tombstone_zombies
+image,minimap_icon_chugabud     //<--- This is Who's Who
+
+//AGC's Black Ops 2 Powerup Shaders
+image,specialty_giant_killjoy_zombies
+image,specialty_giant_2x_zombies
+image,specialty_giant_firesale_zombies
+image,t7_hud_zm_powerup_giant_deathmachine
+
+//AGC's Origins HUD
+image,uie_t7_zm_derriese_hud_ammo_dpadbase
+image,uie_t7_zm_derriese_hud_ammo_dpadbaseglowanim
+image,uie_t7_zm_derriese_hud_ammo_dpadbasereflect
+image,uie_t7_zm_derriese_hud_ammo_projection_lrg
+image,uie_t7_zm_derriese_hud_ammo_projection_small
+image,uie_t7_zm_derriese_hud_ammo_projection_p1
+image,uie_t7_zm_derriese_hud_ammo_projection_p2
+image,uie_t7_zm_derriese_hud_ammo_projection_p3
+
+//BO2 Death style animation
+weapon,bo2_deathhands
+
+// NSZ Zombie Blood Powerup
+scriptparsetree,scripts/_NSZ/nsz_powerup_zombie_blood.gsc
+scriptparsetree,scripts/_NSZ/nsz_powerup_zombie_blood.csc
+xmodel,zombie_blood
+material,zombie_blood
+
+// Kino Teleporter
+fx,_NSZ/Kino_Tele/kino_swirl
+scriptparsetree,scripts/_NSZ/ice_insta_teleporter.gsc
+
+//FX FOR SOE BOX
+fx,custom_soe_box/fx_soe_magicbox
+
+//TEDDY MODEL FOR SOE BOX
+xmodel,p7_zm_zod_magic_box_tentacle_teddy
