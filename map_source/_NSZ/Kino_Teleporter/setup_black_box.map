@@ -1,0 +1,114 @@
+iwmap 4
+"script_startingnumber" 0
+"000_Global" flags  active
+"The Map" flags expanded 
+// entity 0
+{
+guid "{19784D48-665D-11E6-92B4-1C1B0D04B2D7}"
+"classname" "worldspawn"
+"lightingquality" "1024"
+"samplescale" "1"
+"skyboxmodel" "skybox_default_day"
+"ssi" "default_day"
+"wsi" "default_day"
+"fsi" "default"
+"gravity" "800"
+"lodbias" "default"
+"lutmaterial" "luts_t7_default"
+"numOmniShadowSlices" "24"
+"numSpotShadowSlices" "64"
+"sky_intensity_factor0" "1"
+"sky_intensity_factor1" "1"
+"state_alias_1" "State 1"
+"state_alias_2" "State 2"
+"state_alias_3" "State 3"
+"state_alias_4" "State 4"
+// brush 0
+{
+ guid "{36F36A4B-6614-11E6-92B4-1C1B0D04B2D7}"
+ ( 64 152 0 ) ( -128 152 0 ) ( -128 -32 0 ) infinite_blackness 0.5 0.5 1216 -1024 0 0 lightmap_gray 16384 16384 1480 -1136 0 0
+ ( -128 -32 104 ) ( -128 152 104 ) ( 64 152 104 ) infinite_blackness 0.5 0.5 1216 -1024 0 0 lightmap_gray 16384 16384 1480 -1136 0 0
+ ( -80 -144 8 ) ( 112 -144 8 ) ( 112 -144 0 ) infinite_blackness 0.5 0.5 1216 368 0 0 lightmap_gray 16384 16384 1528 360 0 0
+ ( 64 -32 8 ) ( 64 152 8 ) ( 64 152 0 ) infinite_blackness 0.5 0.5 1024 368 0 0 lightmap_gray 16384 16384 1136 360 0 0
+ ( 64 152 8 ) ( -128 152 8 ) ( -128 152 0 ) infinite_blackness 0.5 0.5 1216 368 0 0 lightmap_gray 16384 16384 1480 360 0 0
+ ( 56 152 8 ) ( 56 -32 8 ) ( 56 152 0 ) infinite_blackness 0.5 0.5 1024 368 0 0 lightmap_gray 16384 16384 1136 360 0 0
+}
+// brush 1
+{
+ guid "{36F36A47-6614-11E6-92B4-1C1B0D04B2D7}"
+ ( -128 -32 104 ) ( -128 152 104 ) ( 64 152 104 ) infinite_blackness 0.5 0.5 1216 -1024 0 0 lightmap_gray 16384 16384 1480 -1136 0 0
+ ( -80 -144 8 ) ( 112 -144 8 ) ( 112 -144 0 ) infinite_blackness 0.5 0.5 1216 368 0 0 lightmap_gray 16384 16384 1528 360 0 0
+ ( 64 -32 8 ) ( 64 152 8 ) ( 64 152 0 ) infinite_blackness 0.5 0.5 1024 368 0 0 lightmap_gray 16384 16384 1136 360 0 0
+ ( 64 152 8 ) ( -128 152 8 ) ( -128 152 0 ) infinite_blackness 0.5 0.5 1216 368 0 0 lightmap_gray 16384 16384 1480 360 0 0
+ ( -64 152 8 ) ( -64 -32 8 ) ( -64 -32 0 ) infinite_blackness 0.5 0.5 1024 368 0 0 lightmap_gray 16384 16384 1136 360 0 0
+ ( -128 152 96 ) ( -128 -32 96 ) ( 64 152 96 ) infinite_blackness 0.5 0.5 1216 -1024 0 0 lightmap_gray 16384 16384 1480 -1136 0 0
+}
+// brush 2
+{
+ guid "{36F36A4D-6614-11E6-92B4-1C1B0D04B2D7}"
+ ( 64 152 0 ) ( -128 152 0 ) ( -128 -32 0 ) infinite_blackness 0.5 0.5 1216 -1024 0 0 lightmap_gray 16384 16384 1480 -1136 0 0
+ ( -128 -32 104 ) ( -128 152 104 ) ( 64 152 104 ) infinite_blackness 0.5 0.5 1216 -1024 0 0 lightmap_gray 16384 16384 1480 -1136 0 0
+ ( 64 -32 8 ) ( 64 152 8 ) ( 64 152 0 ) infinite_blackness 0.5 0.5 1024 368 0 0 lightmap_gray 16384 16384 1136 360 0 0
+ ( 64 152 8 ) ( -128 152 8 ) ( -128 152 0 ) infinite_blackness 0.5 0.5 1216 368 0 0 lightmap_gray 16384 16384 1480 360 0 0
+ ( -64 152 8 ) ( -64 -32 8 ) ( -64 -32 0 ) infinite_blackness 0.5 0.5 1024 368 0 0 lightmap_gray 16384 16384 1136 360 0 0
+ ( -128 144 8 ) ( 64 144 8 ) ( -128 144 0 ) infinite_blackness 0.5 0.5 1216 368 0 0 lightmap_gray 16384 16384 1480 360 0 0
+}
+// brush 3
+{
+ guid "{36F36A45-6614-11E6-92B4-1C1B0D04B2D7}"
+ ( 64 152 0 ) ( -128 152 0 ) ( -128 -32 0 ) infinite_blackness 0.5 0.5 1216 -1024 0 0 lightmap_gray 16384 16384 1480 -1136 0 0
+ ( -80 -144 8 ) ( 112 -144 8 ) ( 112 -144 0 ) infinite_blackness 0.5 0.5 1216 368 0 0 lightmap_gray 16384 16384 1528 360 0 0
+ ( 64 -32 8 ) ( 64 152 8 ) ( 64 152 0 ) infinite_blackness 0.5 0.5 1024 368 0 0 lightmap_gray 16384 16384 1136 360 0 0
+ ( 64 152 8 ) ( -128 152 8 ) ( -128 152 0 ) infinite_blackness 0.5 0.5 1216 368 0 0 lightmap_gray 16384 16384 1480 360 0 0
+ ( -64 152 8 ) ( -64 -32 8 ) ( -64 -32 0 ) infinite_blackness 0.5 0.5 1024 368 0 0 lightmap_gray 16384 16384 1136 360 0 0
+ ( -128 152 8 ) ( 64 152 8 ) ( -128 -32 8 ) infinite_blackness 0.5 0.5 1216 -1024 0 0 lightmap_gray 16384 16384 1480 -1136 0 0
+}
+// brush 4
+{
+ guid "{36F36A49-6614-11E6-92B4-1C1B0D04B2D7}"
+ ( 64 152 0 ) ( -128 152 0 ) ( -128 -32 0 ) infinite_blackness 0.5 0.5 1216 -1024 0 0 lightmap_gray 16384 16384 1480 -1136 0 0
+ ( -128 -32 104 ) ( -128 152 104 ) ( 64 152 104 ) infinite_blackness 0.5 0.5 1216 -1024 0 0 lightmap_gray 16384 16384 1480 -1136 0 0
+ ( -80 -144 8 ) ( 112 -144 8 ) ( 112 -144 0 ) infinite_blackness 0.5 0.5 1216 368 0 0 lightmap_gray 16384 16384 1528 360 0 0
+ ( 64 -32 8 ) ( 64 152 8 ) ( 64 152 0 ) infinite_blackness 0.5 0.5 1024 368 0 0 lightmap_gray 16384 16384 1136 360 0 0
+ ( -64 152 8 ) ( -64 -32 8 ) ( -64 -32 0 ) infinite_blackness 0.5 0.5 1024 368 0 0 lightmap_gray 16384 16384 1136 360 0 0
+ ( 112 -136 8 ) ( -80 -136 8 ) ( 112 -136 0 ) infinite_blackness 0.5 0.5 1216 368 0 0 lightmap_gray 16384 16384 1528 360 0 0
+}
+// brush 5
+{
+ guid "{36F36A4F-6614-11E6-92B4-1C1B0D04B2D7}"
+ ( 64 152 0 ) ( -128 152 0 ) ( -128 -32 0 ) infinite_blackness 0.5 0.5 1216 -1024 0 0 lightmap_gray 16384 16384 1480 -1136 0 0
+ ( -128 -32 104 ) ( -128 152 104 ) ( 64 152 104 ) infinite_blackness 0.5 0.5 1216 -1024 0 0 lightmap_gray 16384 16384 1480 -1136 0 0
+ ( -80 -144 8 ) ( 112 -144 8 ) ( 112 -144 0 ) infinite_blackness 0.5 0.5 1216 368 0 0 lightmap_gray 16384 16384 1528 360 0 0
+ ( 64 152 8 ) ( -128 152 8 ) ( -128 152 0 ) infinite_blackness 0.5 0.5 1216 368 0 0 lightmap_gray 16384 16384 1480 360 0 0
+ ( -64 152 8 ) ( -64 -32 8 ) ( -64 -32 0 ) infinite_blackness 0.5 0.5 1024 368 0 0 lightmap_gray 16384 16384 1136 360 0 0
+ ( -56 -32 8 ) ( -56 152 8 ) ( -56 -32 0 ) infinite_blackness 0.5 0.5 1024 368 0 0 lightmap_gray 16384 16384 1136 360 0 0
+}
+}
+// entity 1
+{
+guid "{722F538A-6643-11E6-92B4-1C1B0D04B2D7}"
+"classname" "misc_prefab"
+"model" "_prefabs/_NSZ/Kino_Teleporter/black_box_spawns.map"
+"origin" "-8 96 8"
+}
+// entity 2
+{
+guid "{32D1A342-6645-11E6-92B4-1C1B0D04B2D7}"
+"classname" "misc_prefab"
+"model" "_prefabs/_NSZ/Kino_Teleporter/black_box_spawns.map"
+"origin" "-8 32 8"
+}
+// entity 3
+{
+guid "{32D1A350-6645-11E6-92B4-1C1B0D04B2D7}"
+"classname" "misc_prefab"
+"model" "_prefabs/_NSZ/Kino_Teleporter/black_box_spawns.map"
+"origin" "-8 -24 8"
+}
+// entity 4
+{
+guid "{32D1A35B-6645-11E6-92B4-1C1B0D04B2D7}"
+"classname" "misc_prefab"
+"model" "_prefabs/_NSZ/Kino_Teleporter/black_box_spawns.map"
+"origin" "-8 -88 8"
+}

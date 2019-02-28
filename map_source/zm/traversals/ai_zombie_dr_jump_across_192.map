@@ -1,0 +1,61 @@
+iwmap 4
+"script_startingnumber" 0
+"000_Global" flags  active
+"The Map" flags expanded 
+// entity 0
+{
+guid "{051B32F2-97C1-11E6-9E93-D43D7E9F9DAB}"
+"classname" "worldspawn"
+"lightingquality" "1024"
+"samplescale" "1"
+"skyboxmodel" "skybox_default_day"
+"ssi" "default_day"
+"wsi" "default_day"
+"fsi" "default"
+"gravity" "800"
+"lodbias" "default"
+"lutmaterial" "luts_t7_default"
+"numOmniShadowSlices" "24"
+"numSpotShadowSlices" "64"
+"sky_intensity_factor0" "1"
+"sky_intensity_factor1" "1"
+"state_alias_1" "State 1"
+"state_alias_2" "State 2"
+"state_alias_3" "State 3"
+"state_alias_4" "State 4"
+// brush 0
+{
+ guid "{DC991150-97C0-11E6-9E93-D43D7E9F9DAB}"
+ ( 179 22 -4 ) ( 163 22 -4 ) ( 163 -10 -4 ) traverse 16 16 895 -310 0 0 lightmap_gray 16384 16384 895 -310 0 0
+ ( 199 -6 0 ) ( 199 26 0 ) ( 215 26 0 ) traverse 16 16 931 -314 0 0 lightmap_gray 16384 16384 931 -314 0 0
+ ( 163 -22 -16 ) ( 179 -22 -16 ) ( 179 -22 -48 ) traverse 16 16 895 48 0 0 lightmap_gray 16384 16384 895 48 0 0
+ ( 149 -27 -12 ) ( 149 5 -12 ) ( 149 5 -44 ) traverse 16 16 293 44 0 0 lightmap_gray 16384 16384 293 44 0 0
+ ( 179 26 -16 ) ( 163 26 -16 ) ( 163 26 -48 ) traverse 16 16 895 48 0 0 lightmap_gray 16384 16384 895 48 0 0
+ ( -151 2 -12 ) ( -151 -30 -12 ) ( -151 -30 -44 ) traverse 16 16 290 44 0 0 lightmap_gray 16384 16384 290 44 0 0
+}
+}
+// entity 1
+{
+guid "{DC991153-97C0-11E6-9E93-D43D7E9F9DAB}"
+"classname" "node_negotiation_begin"
+"animscript" "jump_across_192"
+"movementtype_ignore" "zombie_dog"
+"origin" "-127 2 40"
+"previewanim1" "ai_zm_dlc4_zombie_jump_across_192"
+"previewmdl1" "c_zom_test_t7_fb"
+"target" "auto7"
+"_color" "0.5 0.6 0.5"
+"cost_modifier" "1"
+}
+// entity 2
+{
+guid "{DC991156-97C0-11E6-9E93-D43D7E9F9DAB}"
+"classname" "node_negotiation_end"
+"angles" "0 180 0"
+"animscript" ""
+"origin" "129 2 40"
+"previewanim1" ""
+"previewmdl1" "c_zom_test_t7_fb"
+"targetname" "auto7"
+"_color" "0.6 0.5 0.5"
+}

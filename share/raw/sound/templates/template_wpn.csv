@@ -1,0 +1,8 @@
+Name,FileSpec,Template,Loadspec,Secondary,VolumeGroup,VolMin,VolMax,DistMin,DistMaxDry,DistMaxWet,DryMaxCurve,WetMaxCurve,DryMinCurve,WetMinCurve,LimitCount,LimitType,EntityLimitCount,EntityLimitType,PitchMin,PitchMax,PriorityMin,PriorityMax,PriorityThresholdMin,PriorityThresholdMax,PanType,Storage,Looping,RandomizeType,Probability,StartDelay,ReverbSend,Duck,Pan,CenterSend,EnvelopMin,EnvelopMax,EnvelopPercent,OcclusionLevel,IsBig,DistanceLpf,FluxType,FluxTime,Subtitle,Doppler,Futz,ContextType,ContextValue,Compression,Timescale,IsMusic,FadeIn,FadeOut,Pauseable,StopOnEntDeath,Bus,FutzPatch,NeverPlayTwice,WiiUMono,IsCinematic,DuckGroup,DopplerScale,GPAD,GPADOnly
+#  WPN - WEAPON SOUND TEMPLATES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GRP_WPN,,,,,grp_weapon,90,90,,,,default,default,default,default,2,oldest,,,0,0,100,100,0,1,2d,,,,,,0,,wpn_all,,,,,,,,,,,,,,,,,no,,,no,,,,,yes,,snp_wpn_1p,,,
+GRP_WPN_3P,,,,,grp_weapon_3p,90,90,,,,default,default,default,default,2,oldest,,,0,0,100,100,0,1,3d,,,,,,1,,wpn_all,,,,,,,,,,,,,,,,,no,,,no,,,,,yes,,snp_wpn_3p,,,
+GRP_WPN_DECAY_3P,,,,,grp_weapon_decay_3p,100,100,,,,default,default,default,default,2,oldest,,,0,0,100,100,0,1,3d,,,,,,2,,wpn_all,,,,,,,,,,,,,,,,,no,,,no,,,,,yes,,snp_wpn_3p_decay,,,
+GRP_WPN_WHIZBY,,,,,grp_whizby,60,60,,,,default,default,default,default,2,oldest,,,0,0,100,100,0,1,3d,,,,,,3,,wpn_all,,,,,,,,,,,,,,,,,no,,,no,,,,,yes,,snp_whizby,,,
+GRP_WPN_LFE,,,,,grp_wpn_lfe,50,100,,,,default,default,default,default,2,oldest,,,0,0,100,100,0,1,3d,,,,,,4,,lfe,,,,,,,,,,,,,,,,,no,,,no,,,,,yes,,snp_never_duck,,,
+GRP_WPN_FOLEY,,,,,grp_foley,100,100,,,,default,default,default,default,2,oldest,,,0,0,100,100,0,1,3d,,,,,,5,,wpn_all,,,,,,,,,,,,,,,,,no,,,no,,,,,yes,,snp_foley,,,

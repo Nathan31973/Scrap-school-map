@@ -1,0 +1,34 @@
+iwmap 4
+"script_startingnumber" 0
+"000_Global" flags  active
+"The Map" flags expanded 
+// entity 0
+{
+guid "{48E9F76A-FC6E-11E6-BE96-0015833D0A57}"
+"classname" "worldspawn"
+"evmax" "31"
+"evmin" "-32"
+"secondsLerpToDarker" "1"
+"secondsLerpToLighter" "1"
+"fsi" "default"
+"gravity" "800"
+"lodbias" "default"
+"lutmaterial" "luts_t7_default"
+"numOmniShadowSlices" "24"
+"numSpotShadowSlices" "64"
+"sky_intensity_factor0" "1"
+"sky_intensity_factor1" "1"
+"state_alias_1" "State 1"
+"state_alias_2" "State 2"
+"state_alias_3" "State 3"
+"state_alias_4" "State 4"
+}
+// entity 1
+{
+guid "{F338C03C-FFF5-4978-A00D-9CA79FB234F1}"
+"classname" "script_struct"
+"model" "p7_zm_vending_revive"
+"script_noteworthy" "specialty_quickrevive"
+"targetname" "zm_perk_machine"
+"_color" "1 0 0"
+}

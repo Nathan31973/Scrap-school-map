@@ -1,0 +1,30 @@
+iwmap 4
+"script_startingnumber" 0
+"000_Global" flags  active
+"The Map" flags expanded 
+// entity 0
+{
+guid "{ECF7C8A1-152A-11E5-9362-E83935307086}"
+"classname" "worldspawn"
+"fsi" "default"
+"gravity" "800"
+"lodbias" "default"
+"lutmaterial" "luts_t7_default"
+"numOmniShadowSlices" "24"
+"numSpotShadowSlices" "64"
+"sky_intensity_factor0" "1"
+"sky_intensity_factor1" "1"
+"state_alias_1" "State 1"
+"state_alias_2" "State 2"
+"state_alias_3" "State 3"
+"state_alias_4" "State 4"
+}
+// entity 1
+{
+guid "{8DC7D625-F37C-11E4-AA90-E83935307086}"
+"classname" "script_struct"
+"model" "p7_zm_vending_three_gun"
+"script_noteworthy" "specialty_additionalprimaryweapon"
+"targetname" "zm_perk_machine"
+"_color" "1 0 0"
+}
